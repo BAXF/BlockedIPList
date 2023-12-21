@@ -1,0 +1,9 @@
+version: "3.8"
+
+services:
+  # Is blocked service
+  is_blocked:
+    image: mparvin/is_blocked:latest
+    build: .
+    ports:
+      - "8080:8080"
